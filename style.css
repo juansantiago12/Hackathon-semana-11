@@ -61,7 +61,7 @@ li {
     right: 100px;
     top: 0;
     background-color: floralwhite;
-    width: 380px;
+    min-width: 40%;
     height: 40%;
     transform: translateY(-400px);
     transition: transform .5s ease-in-out;

@@ -58,12 +58,12 @@ li {
 .nav-menu-show {
     color: black;
     position: absolute;
-    right: 100px;
+    right: 150px;
     top: 0;
     background-color: floralwhite;
     min-width: 40%;
     height: 40%;
-    transform: translateY(-400px);
+    transform: translateY(-500px);
     transition: transform .5s ease-in-out;
 }
 .show {

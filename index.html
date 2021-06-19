@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Semana 11</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/cube.png" alt="logo principal" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#">Web Development</a>
+                </li>
+                <li>
+                    <a href="#">Blochain</a>
+                </li>
+                <li>
+                    <a href="#">Artificil Intelligence</a>
+                </li>
+                <li>
+                    <a href="#">Machine Learning</a>
+                </li>
+                <li>
+                    <a href="#">Quantum computimg</a>
+                </li>
+                <li>
+                    <a href="#">Startup</a>
+                </li>
+                <li>
+                    <a href="#">More</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#"><i class="fas fa-shopping-cart" id="carrito"></i></a>
+                </li>
+                <p id="valor">0</p>
+            </ul>
+            <div class="nav-menu-show">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-contenedor">
+                    </tbody>
+                </table>
+            </div>
+        </nav>
+        <header class="showcase">
+            <h2>Big News Today</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, reiciendis ad! Odio totam tenetur porro harum eum alias asperiores, ipsa est officiis dolorem dolores. Officia ullam molestias est maxime similique.</p>
+            <a href="#" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+        </header>
+        <div class="news-cards" id="lista-cursos">
+            <div>
+                <img src="https://www.adictosaltrabajo.com/wp-content/uploads/2018/05/el_remozado_javascript.imagen.jpg" alt="Curso 1">
+                <h3>JavaScript</h3>
+                <p class="precio">S/600</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="https://seguridadparaelpc.files.wordpress.com/2018/07/curso-fundamentos-de-redes-gratis-en-csu.jpg" alt="Curso 2">
+                <h3>Fundamentos de Redes</h3>
+                <p class="precio">S/800</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFvactrLcVf4wqVrBvFI4XmqOwFeRxC6vfQ&usqp=CAU" alt="Curso 3">
+                <h3>Power BI</h3>
+                <p class="precio">S/900</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="https://www.cice.es/wp-content/uploads/2020/06/programar-en-python.jpg" alt="Curso 4">
+                <h3>Python</h3>
+                <p class="precio">S/1000</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="https://programacion.net/files/article/20170421010425_html5.jpg" alt="Curso 5">
+                <h3>HTML</h3>
+                <p class="precio">S/500</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2020/02/solucionar-reparar-problemas-1024x512.jpg" alt="Curso 6">
+                <h3>Bases de Datos</h3>
+                <p class="precio">S/1200</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="https://adrianalonso.es/wp-content/uploads/2014/09/nodejs.png" alt="Curso 7">
+                <h3>Node.js desde cero</h3>
+                <p class="precio">S/700</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="https://4.bp.blogspot.com/-PNL4EMDQ6vY/V_W2JUqaKxI/AAAAAAAAQ2g/JYUlZu3lja0Sj05OMvvwC1Iog379JUBFQCLcB/s1600/Cinco%2Bcursos%2Bonline%2Bgratis%2Barduino.jpg" alt="Curso 8">
+                <h3>Arduino</h3>
+                <p class="precio">S/1500</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia aliquam quod vero molestiae est eum, dolorum cumque libero corrupti?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+        <section class="cards-banner-one">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis accusantium alias amet, totam quaerat eligendi voluptatem facilis doloribus fuga velit?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+        <section class="cards-banner-two">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita omnis, magni culpa voluptatum veniam placeat distinctio dicta praesentium autem laborum eum reiciendis hic, beatae nostrum veritatis nulla ipsa rem tenetur?</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

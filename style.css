@@ -1,0 +1,211 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    background-color: rgb(78, 57, 57);
+    border-bottom: 2px solid white;
+}
+.nav-brand {
+    width: 50px;
+}
+.nav-menu {
+    display: flex;
+    margin-left: 20px;
+    flex: 1;
+}
+.nav-menu li {
+    padding: 10px;
+}
+.nav-menu li a {
+    padding-bottom: 4px;
+}
+.nav-menu li a:hover {
+    border-bottom: 2px solid white;
+}
+.nav-menu-right {
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+}
+.nav-menu-show {
+    color: black;
+    position: absolute;
+    right: 100px;
+    top: 0;
+    background-color: floralwhite;
+    width: 380px;
+    height: 40%;
+    transform: translateY(-400px);
+    transition: transform .5s ease-in-out;
+}
+.show {
+    transform: translateY(0px);
+}
+.nav-menu-show thead th {
+    padding: 0 15px;
+    font-weight: bold;
+}
+.nav-menu-show tbody th {
+    color: rgb(13, 13, 95);
+    padding: 0 15px;
+    font-weight: bold;
+}
+.showcase {
+    width: 100%;
+    height: 550px;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: rgb(9, 50, 92);
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.btn:hover {
+    background: white;
+    color: rgb(13, 13, 83);
+}
+.showcase h2 {
+    margin-bottom: 20px;
+}
+.showcase p {
+    margin-bottom: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.news-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.news-cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    background-color: rgb(78, 57, 57);
+    padding-bottom: 10px;
+}
+.news-cards img {
+    width: 100%;
+    height: 180px;
+}
+.news-cards p {
+    font-size: 13px;
+    padding: 15px 5px 5px 5px;
+}
+.precio {
+    color: deepskyblue;
+}
+.news-cards h3 {
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cards-banner-one {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/tech-red.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.cards-banner-one .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+}
+.cards-banner-one h2,
+.cards-banner-one p {
+    margin: 15px 0;
+}
+
+.cards-banner-two {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/image-five.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cards-banner-two h2,
+.cards-banner-two p {
+    margin: 15px 0;
+}
+.cards-banner-two .content {
+    width: 50%;
+    padding: 80px 0 0 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 790px) {
+    .nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90%;
+        background-color: #2f3640;
+        transform: translateX(-20px);
+        padding: 30px;
+        opacity: .9;
+    }
+    .nav-menu li {
+        padding: 20px;
+        font-size: 18px;
+    }
+}
